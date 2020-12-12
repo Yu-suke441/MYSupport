@@ -6,5 +6,5 @@ target 'MYSupport' do
   use_frameworks!
 
   # Pods for MYSupport
-  pod 'RealmSwift','5.1.0'
+  pod 'RealmSwift','10.1.0'
 end

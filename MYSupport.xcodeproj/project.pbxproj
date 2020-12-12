@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7D14A02584DA0000BB0333 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7D149F2584DA0000BB0333 /* ItemRowView.swift */; };
+		CB7D14A32584DC4C00BB0333 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7D14A22584DC4C00BB0333 /* ItemListView.swift */; };
+		CB8A5F4125836BEB00E2BF5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A5F4025836BEB00E2BF5A /* Item.swift */; };
+		CBBA7F572584A8A500D6ADD2 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBA7F562584A8A500D6ADD2 /* ItemStore.swift */; };
 		CBE7C323257F5668008A73BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7C322257F5668008A73BC /* AppDelegate.swift */; };
 		CBE7C325257F5668008A73BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7C324257F5668008A73BC /* SceneDelegate.swift */; };
 		CBE7C327257F5668008A73BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7C326257F5668008A73BC /* ContentView.swift */; };
 		CBE7C329257F5669008A73BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7C328257F5669008A73BC /* Assets.xcassets */; };
 		CBE7C32C257F5669008A73BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7C32B257F5669008A73BC /* Preview Assets.xcassets */; };
 		CBE7C32F257F5669008A73BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE7C32D257F5669008A73BC /* LaunchScreen.storyboard */; };
+		CBE7C340257F5861008A73BC /* ItemDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7C33F257F5861008A73BC /* ItemDB.swift */; };
 		FB96D81962F3CF3A0D9C6B43 /* Pods_MYSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C38F52845D3679933FFB55B /* Pods_MYSupport.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +25,10 @@
 		1DB0A132A02A19E6D040FFFB /* Pods-MYSupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYSupport.debug.xcconfig"; path = "Target Support Files/Pods-MYSupport/Pods-MYSupport.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF4033EDC1F31E824D443BF /* Pods-MYSupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYSupport.release.xcconfig"; path = "Target Support Files/Pods-MYSupport/Pods-MYSupport.release.xcconfig"; sourceTree = "<group>"; };
 		8C38F52845D3679933FFB55B /* Pods_MYSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7D149F2584DA0000BB0333 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		CB7D14A22584DC4C00BB0333 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		CB8A5F4025836BEB00E2BF5A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CBBA7F562584A8A500D6ADD2 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		CBE7C31F257F5668008A73BC /* MYSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE7C322257F5668008A73BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBE7C324257F5668008A73BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +37,7 @@
 		CBE7C32B257F5669008A73BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBE7C32E257F5669008A73BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBE7C330257F5669008A73BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE7C33F257F5861008A73BC /* ItemDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,11 @@
 				CBE7C322257F5668008A73BC /* AppDelegate.swift */,
 				CBE7C324257F5668008A73BC /* SceneDelegate.swift */,
 				CBE7C326257F5668008A73BC /* ContentView.swift */,
+				CB8A5F4025836BEB00E2BF5A /* Item.swift */,
+				CBBA7F562584A8A500D6ADD2 /* ItemStore.swift */,
+				CB7D149F2584DA0000BB0333 /* ItemRowView.swift */,
+				CB7D14A22584DC4C00BB0333 /* ItemListView.swift */,
+				CBE7C33D257F584E008A73BC /* Model */,
 				CBE7C328257F5669008A73BC /* Assets.xcassets */,
 				CBE7C32D257F5669008A73BC /* LaunchScreen.storyboard */,
 				CBE7C330257F5669008A73BC /* Info.plist */,
@@ -90,13 +105,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CBE7C33D257F584E008A73BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBE7C33F257F5861008A73BC /* ItemDB.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E7F9823FC805C1D379464284 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1DB0A132A02A19E6D040FFFB /* Pods-MYSupport.debug.xcconfig */,
 				7CF4033EDC1F31E824D443BF /* Pods-MYSupport.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7D14A02584DA0000BB0333 /* ItemRowView.swift in Sources */,
+				CB8A5F4125836BEB00E2BF5A /* Item.swift in Sources */,
+				CBE7C340257F5861008A73BC /* ItemDB.swift in Sources */,
+				CB7D14A32584DC4C00BB0333 /* ItemListView.swift in Sources */,
+				CBBA7F572584A8A500D6ADD2 /* ItemStore.swift in Sources */,
 				CBE7C323257F5668008A73BC /* AppDelegate.swift in Sources */,
 				CBE7C325257F5668008A73BC /* SceneDelegate.swift in Sources */,
 				CBE7C327257F5668008A73BC /* ContentView.swift in Sources */,
