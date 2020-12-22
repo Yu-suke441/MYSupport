@@ -14,13 +14,15 @@ struct ItemListView: View {
     
     var body: some View {
         List {
-            
+            ScrollView {
                 ForEach(items) { item in
                     HStack {
                         ItemRowView(item: item)
                     }
                     
                 }
+            }
+            
         }
         .navigationBarTitle("Realmテスト")
     }

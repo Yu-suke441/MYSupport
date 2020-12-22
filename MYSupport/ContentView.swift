@@ -17,7 +17,10 @@ struct ContentView: View {
         NavigationView {
             ItemListView(items: store.items)
         }
-        
+        .onAppear() {
+            print(Realm.Configuration.defaultConfiguration.fileURL)
+        }
+ 
         
          
     }
