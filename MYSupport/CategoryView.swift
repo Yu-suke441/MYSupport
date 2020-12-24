@@ -31,7 +31,7 @@ struct CategoryView_Previews: PreviewProvider {
         CategoryView(item: Item(id: 0, name: "体重(kg)", icon_file: "weight-scale", record_type: "number", odr: 0))
         CategoryView(item: Item(id: 1, name: "体温(℃)", icon_file: "thermometer", record_type: "number" , odr: 1))
         CategoryView(item: Item(id: 2, name: "メモ", icon_file: "memo", record_type: "memo" , odr: 2))
-        CategoryView(item: Item(id: 3, name: "shopping", icon_file: "shopping", record_type: "shopping" , odr: 3))
+        CategoryView(item: Item(id: 3, name: "買い物(円)", icon_file: "shopping", record_type: "shopping" , odr: 3))
         CategoryView(item: Item(id: 4, name: "一日一善", icon_file: "check-mark", record_type: "memo" , odr: 4))
         }
     }

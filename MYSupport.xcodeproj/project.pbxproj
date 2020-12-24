@@ -10,12 +10,15 @@
 		CB037639258DA8BC00270F42 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = CB037638258DA8BC00270F42 /* FSCalendar */; };
 		CB03763C258DC7B900270F42 /* ItemDBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03763B258DC7B900270F42 /* ItemDBKeys.swift */; };
 		CB0A0EB0258CC8A9008BDC64 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0A0EAF258CC8A9008BDC64 /* CategoryView.swift */; };
+		CB17D7F8259358200071B71B /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB17D7F7259358200071B71B /* GraphView.swift */; };
+		CB17D7FB25935C3C0071B71B /* CharacterInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB17D7FA25935C3C0071B71B /* CharacterInputView.swift */; };
 		CB5B1533258A32C500F7EF4E /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1532258A32C500F7EF4E /* NavigationBarView.swift */; };
 		CB5FE87D2588A756006B2C2B /* KeyboardObserving in Frameworks */ = {isa = PBXBuildFile; productRef = CB5FE87C2588A756006B2C2B /* KeyboardObserving */; };
 		CB688A0F2588AB1F00D1C5B7 /* NumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB688A0E2588AB1F00D1C5B7 /* NumberInput.swift */; };
 		CB7D14A02584DA0000BB0333 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7D149F2584DA0000BB0333 /* ItemRowView.swift */; };
 		CB7D14A32584DC4C00BB0333 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7D14A22584DC4C00BB0333 /* ItemListView.swift */; };
 		CB8A5F4125836BEB00E2BF5A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8A5F4025836BEB00E2BF5A /* Item.swift */; };
+		CBA0BDD825920AEE00FA2E6D /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = CBA0BDD725920AEE00FA2E6D /* SwiftUICharts */; };
 		CBBA7F572584A8A500D6ADD2 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBA7F562584A8A500D6ADD2 /* ItemStore.swift */; };
 		CBBF70422591C9AA00B382F6 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF70412591C9AA00B382F6 /* NumberView.swift */; };
 		CBBF70452591C9BA00B382F6 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF70442591C9B900B382F6 /* MemoView.swift */; };
@@ -36,6 +39,8 @@
 		8C38F52845D3679933FFB55B /* Pods_MYSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB03763B258DC7B900270F42 /* ItemDBKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDBKeys.swift; sourceTree = "<group>"; };
 		CB0A0EAF258CC8A9008BDC64 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		CB17D7F7259358200071B71B /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		CB17D7FA25935C3C0071B71B /* CharacterInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInputView.swift; sourceTree = "<group>"; };
 		CB5B1532258A32C500F7EF4E /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		CB688A0E2588AB1F00D1C5B7 /* NumberInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberInput.swift; sourceTree = "<group>"; };
 		CB7D149F2584DA0000BB0333 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB96D81962F3CF3A0D9C6B43 /* Pods_MYSupport.framework in Frameworks */,
+				CBA0BDD825920AEE00FA2E6D /* SwiftUICharts in Frameworks */,
 				CB037639258DA8BC00270F42 /* FSCalendar in Frameworks */,
 				CB5FE87D2588A756006B2C2B /* KeyboardObserving in Frameworks */,
 			);
@@ -107,6 +113,8 @@
 				CBBF70412591C9AA00B382F6 /* NumberView.swift */,
 				CBBF70442591C9B900B382F6 /* MemoView.swift */,
 				CBBF70472591C9C300B382F6 /* ShoppingView.swift */,
+				CB17D7F7259358200071B71B /* GraphView.swift */,
+				CB17D7FA25935C3C0071B71B /* CharacterInputView.swift */,
 				CB8A5F4025836BEB00E2BF5A /* Item.swift */,
 				CBBA7F562584A8A500D6ADD2 /* ItemStore.swift */,
 				CB7D149F2584DA0000BB0333 /* ItemRowView.swift */,
@@ -168,6 +176,7 @@
 			packageProductDependencies = (
 				CB5FE87C2588A756006B2C2B /* KeyboardObserving */,
 				CB037638258DA8BC00270F42 /* FSCalendar */,
+				CBA0BDD725920AEE00FA2E6D /* SwiftUICharts */,
 			);
 			productName = MYSupport;
 			productReference = CBE7C31F257F5668008A73BC /* MYSupport.app */;
@@ -199,6 +208,7 @@
 			packageReferences = (
 				CB5FE87B2588A756006B2C2B /* XCRemoteSwiftPackageReference "KeyboardObserving" */,
 				CB037637258DA8BC00270F42 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				CBA0BDD625920AEE00FA2E6D /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = CBE7C320257F5668008A73BC /* Products */;
 			projectDirPath = "";
@@ -272,10 +282,12 @@
 				CBBF70452591C9BA00B382F6 /* MemoView.swift in Sources */,
 				CBBF70422591C9AA00B382F6 /* NumberView.swift in Sources */,
 				CB7D14A02584DA0000BB0333 /* ItemRowView.swift in Sources */,
+				CB17D7FB25935C3C0071B71B /* CharacterInputView.swift in Sources */,
 				CB8A5F4125836BEB00E2BF5A /* Item.swift in Sources */,
 				CBE7C340257F5861008A73BC /* ItemDB.swift in Sources */,
 				CBBF70482591C9C300B382F6 /* ShoppingView.swift in Sources */,
 				CB7D14A32584DC4C00BB0333 /* ItemListView.swift in Sources */,
+				CB17D7F8259358200071B71B /* GraphView.swift in Sources */,
 				CB5B1533258A32C500F7EF4E /* NavigationBarView.swift in Sources */,
 				CB0A0EB0258CC8A9008BDC64 /* CategoryView.swift in Sources */,
 				CBBA7F572584A8A500D6ADD2 /* ItemStore.swift in Sources */,
@@ -501,6 +513,14 @@
 				minimumVersion = 0.3.0;
 			};
 		};
+		CBA0BDD625920AEE00FA2E6D /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -513,6 +533,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CB5FE87B2588A756006B2C2B /* XCRemoteSwiftPackageReference "KeyboardObserving" */;
 			productName = KeyboardObserving;
+		};
+		CBA0BDD725920AEE00FA2E6D /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBA0BDD625920AEE00FA2E6D /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

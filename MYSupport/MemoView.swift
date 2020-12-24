@@ -9,6 +9,7 @@ import SwiftUI
 import RealmSwift
 
 struct MemoView: View {
+    @State var isOnToggle = false
     @EnvironmentObject var store: ItemStore
     let item: Item!
     var body: some View {
@@ -27,10 +28,14 @@ struct MemoView: View {
             
             HStack {
                 Spacer()
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Button(action: {
+                    self.isOnToggle.toggle()
+                }, label: {
                     /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
                 })
-                
+                .sheet(isPresented: $isOnToggle) {
+                    CharacterInputView(item: Item(id: 1, name: "", icon_file: "", record_type: "", odr: 1))
+                }
                 
                 Spacer()
                 
